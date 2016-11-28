@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman Go!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class = "container">
+		<div id= "topBar">
+			<h1> Hangman Planets</h1>
+			<p> Guess my Planet friend! </p>
+		</div>	
+
+		<div id="guessMe">
+			<h3> I am the Planet </h3>
+
+			<div id="guessMeFill">
+				<h2 id="guessForWord"> _ _ _ _ _ _ _ </h2>
+			</div>	
+		</div>
+
+		<div class = "parting" id="lettersGuessed">
+			<h3> Letters guessed: <span id="wrongGuesses"></span></h3>	
+		</div>
+
+		<div class = "parting" id="remainingGuesses">
+			<h3> Guesses Left: <span id="numGuesses"></span>  </h3>
+		</div>
+
+		<div class = "parting" id="win">
+			<h3> Win Counter: <span id="winCounter"></span>  </h3>
+		</div>
+
+		<div class = "parting" id="lost">
+			<h3> Loss Counter: <span id="lossCounter"></span>  </h3>	
+		</div>
+	</div>
+
+	<script src="assets/js/rules.js"></script>
+</body>
+</html>

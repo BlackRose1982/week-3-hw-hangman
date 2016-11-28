@@ -1,0 +1,67 @@
+
+
+body {
+
+		background-image: url(../image/eightnewplan.jpg);
+		padding-top: 20px;
+}
+
+
+.container {
+
+	color: white;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#topBar {
+
+	padding: 25px;
+}
+
+.parting {
+
+	padding: 20px;
+	border-color: black 2px;
+}
+
+
+#guessMe {
+
+	padding: 25px;
+	background-color: #66ccff;
+	border-color: black;
+}
+
+#guessMeFill {
+
+	padding: 15px;
+}
+
+#topBar {
+
+	background-color: grey;
+	border-color: black;
+}
+
+#lettersGuessed {
+
+	background-color: orange;
+}
+
+#remainingGuesses {
+
+	background-color: green;
+}
+
+#win {
+
+	background-color: purple;
+}
+
+#lost {
+
+	background-color: red;
+}
